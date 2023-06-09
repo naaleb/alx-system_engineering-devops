@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod MODE hello
+ls -1 hello
