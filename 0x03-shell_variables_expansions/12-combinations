@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..n}{a..z} | grep -v oo | tr -d ' ' | head -c 2025 | fold -w 1
+echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"
