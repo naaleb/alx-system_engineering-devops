@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(echo {a..n}{a..z} | grep -v oo | tr ' ' '\n')"
+echo {a..n}{a..z} | grep -v oo | tr -d ' ' | head -c 2025 | fold -w 1
